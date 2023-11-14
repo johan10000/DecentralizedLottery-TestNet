@@ -1,11 +1,11 @@
 # DecentralizedLottery-TestNet
 
-This application is deployed on ethereum test network.
+This application is deployed on Ethereum test network(Sepolia).
 
 Takeaways:
 
 1. Metamask
-2. Role of ethereum test network
+2. Role of Ethereum test network
 3. Ethereum blockchain infrastructure
 
 Entities in the project:
