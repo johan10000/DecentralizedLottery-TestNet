@@ -29,13 +29,15 @@ contract Lottery{
     }
 
     // End of lottery round
-    function selectWinner() public view returns(address) {
+    function selectWinner() public {
         require(msg.sender == manager); // Only manager can select winner
         require(participants.length >= 3); // Minimum 3 participants are needed for lottery
         
         uint index = random() % participants.length; // Choose any random participant as the winner
 
         address payable winner = participants[index]; // Get the address of the winner participant
-        return winner;
+        winner.transfer(getBalance()); // Transfer winner the winning amount
+
+        participants = new address payable[](0); // reset the participants array once the lottery round ends
     }
 }
