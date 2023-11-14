@@ -31,3 +31,4 @@ Rules to become a participant:
 
 The contract will reset once a lottery's round is completed.
 
+Learning Source: https://www.youtube.com/watch?v=aFI_XPll_mg&list=PLgPmWS2dQHW_CuryjGPkyH0PNXJ2B0hAk&index=13
